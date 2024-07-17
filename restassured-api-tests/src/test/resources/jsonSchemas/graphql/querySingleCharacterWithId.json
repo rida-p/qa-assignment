@@ -1,0 +1,1431 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "object",
+      "properties": {
+        "character": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "status": {
+              "type": "string"
+            },
+            "species": {
+              "type": "string"
+            },
+            "gender": {
+              "type": "string"
+            },
+            "image": {
+              "type": "string"
+            },
+            "episode": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "air_date": {
+                      "type": "string"
+                    },
+                    "episode": {
+                      "type": "string"
+                    },
+                    "created": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "name",
+                    "air_date",
+                    "episode",
+                    "created"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "air_date": {
+                      "type": "string"
+                    },
+                    "episode": {
+                      "type": "string"
+                    },
+                    "created": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "name",
+                    "air_date",
+                    "episode",
+                    "created"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "air_date": {
+                      "type": "string"
+                    },
+                    "episode": {
+                      "type": "string"
+                    },
+                    "created": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "name",
+                    "air_date",
+                    "episode",
+                    "created"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "air_date": {
+                      "type": "string"
+                    },
+                    "episode": {
+                      "type": "string"
+                    },
+                    "created": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "name",
+                    "air_date",
+                    "episode",
+                    "created"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "air_date": {
+                      "type": "string"
+                    },
+                    "episode": {
+                      "type": "string"
+                    },
+                    "created": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "name",
+                    "air_date",
+                    "episode",
+                    "created"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "air_date": {
+                      "type": "string"
+                    },
+                    "episode": {
+                      "type": "string"
+                    },
+                    "created": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "name",
+                    "air_date",
+                    "episode",
+                    "created"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "air_date": {
+                      "type": "string"
+                    },
+                    "episode": {
+                      "type": "string"
+                    },
+                    "created": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "name",
+                    "air_date",
+                    "episode",
+                    "created"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "air_date": {
+                      "type": "string"
+                    },
+                    "episode": {
+                      "type": "string"
+                    },
+                    "created": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "name",
+                    "air_date",
+                    "episode",
+                    "created"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "air_date": {
+                      "type": "string"
+                    },
+                    "episode": {
+                      "type": "string"
+                    },
+                    "created": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "name",
+                    "air_date",
+                    "episode",
+                    "created"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "air_date": {
+                      "type": "string"
+                    },
+                    "episode": {
+                      "type": "string"
+                    },
+                    "created": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "name",
+                    "air_date",
+                    "episode",
+                    "created"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "air_date": {
+                      "type": "string"
+                    },
+                    "episode": {
+                      "type": "string"
+                    },
+                    "created": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "name",
+                    "air_date",
+                    "episode",
+                    "created"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "air_date": {
+                      "type": "string"
+                    },
+                    "episode": {
+                      "type": "string"
+                    },
+                    "created": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "name",
+                    "air_date",
+                    "episode",
+                    "created"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "air_date": {
+                      "type": "string"
+                    },
+                    "episode": {
+                      "type": "string"
+                    },
+                    "created": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "name",
+                    "air_date",
+                    "episode",
+                    "created"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "air_date": {
+                      "type": "string"
+                    },
+                    "episode": {
+                      "type": "string"
+                    },
+                    "created": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "name",
+                    "air_date",
+                    "episode",
+                    "created"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "air_date": {
+                      "type": "string"
+                    },
+                    "episode": {
+                      "type": "string"
+                    },
+                    "created": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "name",
+                    "air_date",
+                    "episode",
+                    "created"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "air_date": {
+                      "type": "string"
+                    },
+                    "episode": {
+                      "type": "string"
+                    },
+                    "created": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "name",
+                    "air_date",
+                    "episode",
+                    "created"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "air_date": {
+                      "type": "string"
+                    },
+                    "episode": {
+                      "type": "string"
+                    },
+                    "created": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "name",
+                    "air_date",
+                    "episode",
+                    "created"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "air_date": {
+                      "type": "string"
+                    },
+                    "episode": {
+                      "type": "string"
+                    },
+                    "created": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "name",
+                    "air_date",
+                    "episode",
+                    "created"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "air_date": {
+                      "type": "string"
+                    },
+                    "episode": {
+                      "type": "string"
+                    },
+                    "created": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "name",
+                    "air_date",
+                    "episode",
+                    "created"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "air_date": {
+                      "type": "string"
+                    },
+                    "episode": {
+                      "type": "string"
+                    },
+                    "created": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "name",
+                    "air_date",
+                    "episode",
+                    "created"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "air_date": {
+                      "type": "string"
+                    },
+                    "episode": {
+                      "type": "string"
+                    },
+                    "created": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "name",
+                    "air_date",
+                    "episode",
+                    "created"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "air_date": {
+                      "type": "string"
+                    },
+                    "episode": {
+                      "type": "string"
+                    },
+                    "created": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "name",
+                    "air_date",
+                    "episode",
+                    "created"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "air_date": {
+                      "type": "string"
+                    },
+                    "episode": {
+                      "type": "string"
+                    },
+                    "created": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "name",
+                    "air_date",
+                    "episode",
+                    "created"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "air_date": {
+                      "type": "string"
+                    },
+                    "episode": {
+                      "type": "string"
+                    },
+                    "created": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "name",
+                    "air_date",
+                    "episode",
+                    "created"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "air_date": {
+                      "type": "string"
+                    },
+                    "episode": {
+                      "type": "string"
+                    },
+                    "created": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "name",
+                    "air_date",
+                    "episode",
+                    "created"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "air_date": {
+                      "type": "string"
+                    },
+                    "episode": {
+                      "type": "string"
+                    },
+                    "created": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "name",
+                    "air_date",
+                    "episode",
+                    "created"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "air_date": {
+                      "type": "string"
+                    },
+                    "episode": {
+                      "type": "string"
+                    },
+                    "created": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "name",
+                    "air_date",
+                    "episode",
+                    "created"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "air_date": {
+                      "type": "string"
+                    },
+                    "episode": {
+                      "type": "string"
+                    },
+                    "created": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "name",
+                    "air_date",
+                    "episode",
+                    "created"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "air_date": {
+                      "type": "string"
+                    },
+                    "episode": {
+                      "type": "string"
+                    },
+                    "created": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "name",
+                    "air_date",
+                    "episode",
+                    "created"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "air_date": {
+                      "type": "string"
+                    },
+                    "episode": {
+                      "type": "string"
+                    },
+                    "created": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "name",
+                    "air_date",
+                    "episode",
+                    "created"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "air_date": {
+                      "type": "string"
+                    },
+                    "episode": {
+                      "type": "string"
+                    },
+                    "created": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "name",
+                    "air_date",
+                    "episode",
+                    "created"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "air_date": {
+                      "type": "string"
+                    },
+                    "episode": {
+                      "type": "string"
+                    },
+                    "created": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "name",
+                    "air_date",
+                    "episode",
+                    "created"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "air_date": {
+                      "type": "string"
+                    },
+                    "episode": {
+                      "type": "string"
+                    },
+                    "created": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "name",
+                    "air_date",
+                    "episode",
+                    "created"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "air_date": {
+                      "type": "string"
+                    },
+                    "episode": {
+                      "type": "string"
+                    },
+                    "created": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "name",
+                    "air_date",
+                    "episode",
+                    "created"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "air_date": {
+                      "type": "string"
+                    },
+                    "episode": {
+                      "type": "string"
+                    },
+                    "created": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "name",
+                    "air_date",
+                    "episode",
+                    "created"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "air_date": {
+                      "type": "string"
+                    },
+                    "episode": {
+                      "type": "string"
+                    },
+                    "created": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "name",
+                    "air_date",
+                    "episode",
+                    "created"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "air_date": {
+                      "type": "string"
+                    },
+                    "episode": {
+                      "type": "string"
+                    },
+                    "created": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "name",
+                    "air_date",
+                    "episode",
+                    "created"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "air_date": {
+                      "type": "string"
+                    },
+                    "episode": {
+                      "type": "string"
+                    },
+                    "created": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "name",
+                    "air_date",
+                    "episode",
+                    "created"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "air_date": {
+                      "type": "string"
+                    },
+                    "episode": {
+                      "type": "string"
+                    },
+                    "created": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "name",
+                    "air_date",
+                    "episode",
+                    "created"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "air_date": {
+                      "type": "string"
+                    },
+                    "episode": {
+                      "type": "string"
+                    },
+                    "created": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "name",
+                    "air_date",
+                    "episode",
+                    "created"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "air_date": {
+                      "type": "string"
+                    },
+                    "episode": {
+                      "type": "string"
+                    },
+                    "created": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "name",
+                    "air_date",
+                    "episode",
+                    "created"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "air_date": {
+                      "type": "string"
+                    },
+                    "episode": {
+                      "type": "string"
+                    },
+                    "created": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "name",
+                    "air_date",
+                    "episode",
+                    "created"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "air_date": {
+                      "type": "string"
+                    },
+                    "episode": {
+                      "type": "string"
+                    },
+                    "created": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "name",
+                    "air_date",
+                    "episode",
+                    "created"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "air_date": {
+                      "type": "string"
+                    },
+                    "episode": {
+                      "type": "string"
+                    },
+                    "created": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "name",
+                    "air_date",
+                    "episode",
+                    "created"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "air_date": {
+                      "type": "string"
+                    },
+                    "episode": {
+                      "type": "string"
+                    },
+                    "created": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "name",
+                    "air_date",
+                    "episode",
+                    "created"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "air_date": {
+                      "type": "string"
+                    },
+                    "episode": {
+                      "type": "string"
+                    },
+                    "created": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "name",
+                    "air_date",
+                    "episode",
+                    "created"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "air_date": {
+                      "type": "string"
+                    },
+                    "episode": {
+                      "type": "string"
+                    },
+                    "created": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "name",
+                    "air_date",
+                    "episode",
+                    "created"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "air_date": {
+                      "type": "string"
+                    },
+                    "episode": {
+                      "type": "string"
+                    },
+                    "created": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "name",
+                    "air_date",
+                    "episode",
+                    "created"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "air_date": {
+                      "type": "string"
+                    },
+                    "episode": {
+                      "type": "string"
+                    },
+                    "created": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "name",
+                    "air_date",
+                    "episode",
+                    "created"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "air_date": {
+                      "type": "string"
+                    },
+                    "episode": {
+                      "type": "string"
+                    },
+                    "created": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "name",
+                    "air_date",
+                    "episode",
+                    "created"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "air_date": {
+                      "type": "string"
+                    },
+                    "episode": {
+                      "type": "string"
+                    },
+                    "created": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "name",
+                    "air_date",
+                    "episode",
+                    "created"
+                  ]
+                }
+              ]
+            },
+            "created": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "name",
+            "status",
+            "species",
+            "gender",
+            "image",
+            "episode",
+            "created"
+          ]
+        }
+      },
+      "required": [
+        "character"
+      ]
+    }
+  },
+  "required": [
+    "data"
+  ]
+}

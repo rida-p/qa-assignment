@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "object",
+      "properties": {
+        "characters": {
+          "type": "object",
+          "properties": {
+            "info": {
+              "type": "object",
+              "properties": {
+                "count": {
+                  "type": "integer"
+                },
+                "pages": {
+                  "type": "integer"
+                },
+                "next": {
+                  "type": "integer"
+                },
+                "prev": {
+                  "type": "null"
+                }
+              },
+              "required": [
+                "count",
+                "pages",
+                "next",
+                "prev"
+              ]
+            }
+          },
+          "required": [
+            "info"
+          ]
+        }
+      },
+      "required": [
+        "characters"
+      ]
+    }
+  },
+  "required": [
+    "data"
+  ]
+}
