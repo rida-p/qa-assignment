@@ -1,1 +1,1 @@
-docker run -v $(pwd):/cypress -w /cypress  -it $(docker build .) bash
+docker run -it $(docker build . -q) headless

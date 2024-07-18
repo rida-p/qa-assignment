@@ -1,6 +1,6 @@
 FROM cypress/included:latest
-VOLUME /cypress
-WORKDIR /cypress
+VOLUME /test
+WORKDIR /test
 COPY . .
 RUN npm install
 ENTRYPOINT ["npm", "run"]

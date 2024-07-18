@@ -4,13 +4,20 @@
   "main": "index.js",
   "scripts": {
     "dev": "npx cypress open",
+    "reports:clean": "rm -rf report/",
+    "reports:merge": "mochawesome-merge ./report/mochawesome-specs/*.json > ./report/combined-report.json",
+    "reports:create:html": "marge --reportDir ./report ./report/combined-report.json",
+    "report:generate": "npm run reports:merge && npm run reports:create:html",
     "headless": "npx cypress run"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "cypress": "^13.13.1"
+    "cypress": "^13.13.1",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.3.0",
+    "mochawesome-report-generator": "^6.2.0"
   },
   "devDependencies": {
     "typescript": "^5.5.3"
