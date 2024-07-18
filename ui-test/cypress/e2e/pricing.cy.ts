@@ -1,5 +1,5 @@
 import { Navigation } from "../support/navigation"
-import { PricingPage } from "../support/pages/pricingPage"
+import { PricingPage } from "../support/pages/pricing/PricingPage"
 import { getRidOfCookieMessage } from "../support/shortcuts/getRidOfCookieMessage"
 
 describe('Verify Pricing', () => {

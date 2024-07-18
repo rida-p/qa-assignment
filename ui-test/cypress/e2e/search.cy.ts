@@ -1,5 +1,5 @@
 import { Navigation } from "../support/navigation"
-import { SearchResultPage } from "../support/pages/SearchResultPage"
+import { CoursesSearchResultPage } from "../support/pages/CoursesSearchResultsPage"
 import { getRidOfCookieMessage } from "../support/shortcuts/getRidOfCookieMessage"
 
 describe('Show Correct results for Search keyword', () => {
@@ -13,7 +13,7 @@ describe('Show Correct results for Search keyword', () => {
         cy.visit(Navigation.search(keyword))
         getRidOfCookieMessage()
 
-        SearchResultPage.searchResultCards.each(($courseCard, index, $list) => {
+        CoursesSearchResultPage.searchResultCards.each(($courseCard, index, $list) => {
 
           let foundKeyword = 0
           cy.wrap($courseCard).scrollIntoView()
@@ -25,7 +25,7 @@ describe('Show Correct results for Search keyword', () => {
             assert.isTrue(foundKeyword >= 1)
             console.log($courseCard.text().toLowerCase().indexOf(keyword))
           })
-          
+
           if (index == searchResultAssertionLimit) {
             return
           }
