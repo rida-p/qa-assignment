@@ -9,6 +9,9 @@
 #docker run -v $(pwd ):/apitest -w /apitest -it $(docker build .) bash
 #docker run -v $(pwd):/apitest -w /apitest $(docker build .) bash ./gradlew test
 
-docker run -v $(pwd):/apitest -w /apitest $(docker build .) bash ls
+docker run -v $(pwd):/apitest -w /apitest  -it $(docker build .) test
+#docker run -v ${PWD}:/app -w /app -it $(docker build -q .) test
+#gradlew test
+
 
 #docker run -v ./:/apitest -it $(docker build .) bash
