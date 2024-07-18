@@ -1,3 +1,8 @@
+FROM gradle:latest
+VOLUME /apitest
+WORKDIR /apitest
+COPY . .
+ENTRYPOINT ["gradle"]
 #FROM openjdk:24-slim-bullseye AS container
 ##FROM gradle AS container
 #VOLUME /source
@@ -13,9 +18,11 @@
 #RUN gradle test
 #COPY /apitest/allure-results /source/allure-results
 #CMD ./gradlew test
-FROM gradle:latest AS BUILD
-WORKDIR /apitest
-COPY . .
-ENTRYPOINT ["gradle"]
+#FROM gradle:latest AS BUILD
+#FROM gradle:latest
+#VOLUME /apitest
+#WORKDIR /apitest
+#COPY . .
+#ENTRYPOINT ["gradle"]
 #RUN gradlew test
 #COPY /apitest/allure-results /source/allure-results
