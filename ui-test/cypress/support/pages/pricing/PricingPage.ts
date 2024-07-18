@@ -1,6 +1,15 @@
 import { ForBusinessPlans } from "./BusinessPage"
 import { ForIndividualsPlans } from "./individuals"
 
+/*
+    Note on the selectors in this page:
+    Ideally these selectors would be more robust and be in this format almost universally:
+    ```
+        cy.get('[data-cy="unique_identifier"]')
+    ```
+    While trying different ways to create more robust selectors, finally went with
+    proposals from cypress itself
+*/
 export class PricingPage {
     static forBusiness = new ForBusinessPlans()
     static forIndividuals = new ForIndividualsPlans()

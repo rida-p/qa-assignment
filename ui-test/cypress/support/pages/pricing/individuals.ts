@@ -1,5 +1,14 @@
 import { PlanDetails } from "./types/PlanDetails"
 
+/*
+    Note on the selectors in this page:
+    Ideally these selectors would be more robust and be in this format almost universally:
+    ```
+        cy.get('[data-cy="unique_identifier"]')
+    ```
+    While trying different ways to create more robust selectors, finally went with
+    proposals from cypress itself
+*/
 export class ForIndividualsPlans {
     get montly(): PlanDetails {
         return {
